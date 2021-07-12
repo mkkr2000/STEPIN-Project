@@ -1,0 +1,49 @@
+// The code will be shorter and easy to read.
+
+i.e. in towerMoves //
+
+void towerMoves(){
+    for(int dir = -1; dir < 2; dir+=2){
+        for(int tx = x+dir; tx>=0 && tx<=7; tx+=dir) {
+            if(board[y][tx] != 0) {
+                if(blackWhite[y][tx] != color) {
+                    moves[y][tx] = 3;
+                    canMove = 0;
+                }
+                break;
+            } else {
+                moves[y][tx] = 1;
+                canMove = 0;
+            }
+        }
+        for(int ty = y+dir; ty>=0 && ty<=7; ty+=dir) {
+            if(board[ty][x] != 0){
+                if(blackWhite[ty][x] != color){
+                    moves[ty][x] = 3;
+                    canMove = 0;
+                }
+                break;
+            }else{
+                moves[ty][x] = 1;
+                canMove = 0;
+            }
+        }
+    }
+}
+// or with piece 4 //
+
+void cleanUp(int y, int x) {
+    if(x >= 0 && x <= 7 && y >= 0 && y <= 7){
+        moves[y][x] = blackWhite[y][x] == color && board[y][x] != 0 ? 0 : 1;
+        canMove = 0;
+    }
+}
+
+if(piece == 4){
+    for(int i = -1; i < 2; i+=2){
+        cleanUp(y+2*i, x+i);
+        cleanUp(y+i, x+2*i);
+        cleanUp(y+2*i, x-i);
+        cleanUp(y-i, x+2*i);
+    }
+}
