@@ -1,0 +1,7 @@
+struct Piece {
+    enum Type type;
+    enum Color color;
+};
+// Now we have that, we can combine the arrays board and blackWhite into one: //
+
+struct Piece board[8][8];
