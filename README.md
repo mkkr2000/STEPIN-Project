@@ -5,19 +5,19 @@
 
     Folder	                            Description
     
-1_Requirements	          Documents detailing requirements and research
+1_Requirements	-------------- Documents detailing requirements and research
 
-2_Design	                Documents specifying design details
+2_Design ----------           Documents specifying design details
 
-3_Implementation	        All code and documentation
+3_Implementation	------------        All code and documentation
 
-4_Test_plan&Output       	Documents with test plans and procedures
+4_Test_plan&Output -------------      	Documents with test plans and procedures
 
-5_Report	                Documents with overall report
+5_Report	    ------------            Documents with overall report
 
-6_ImagesAndVideos       	Related Videos and images regarding project
+6_ImagesAndVideos   ---------    	Related Videos and images regarding project
 
-7_Other	                  Related other documents
+7_Other	     -----------             Related other documents
 
 
 # GitHub Actions
