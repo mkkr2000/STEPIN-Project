@@ -28,7 +28,7 @@ Unit tests with Cunit
 
 Static code analysis using cppcheck
 
-Dynamic Code analysis using Valgrind
+Chess board using nested structure
 
 Code Quality using Codacy
 
