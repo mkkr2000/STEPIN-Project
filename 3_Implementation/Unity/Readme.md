@@ -19,4 +19,3 @@ Now, instead of writing color = blackWhite[y][x], you can write color = board[y]
 
 Note, you could have made a single enum that listed both the black and white pieces (with names like WHITE_ROOK), and avoid having to create struct Piece, but indeed in your code it makes sense to have piece type and color as separate elements.
 
-D
