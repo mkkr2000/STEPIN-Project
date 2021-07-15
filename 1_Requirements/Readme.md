@@ -42,7 +42,7 @@ A standard chess set has 32 pieces, 16 per side. These pieces are sometimes call
 
 # Where:
 
-•	This problem is surfaced in chess game in all states of India .
+•	This problem is surfaced in chess game in all 8*8=64 parameters .
 
 # How:
 
