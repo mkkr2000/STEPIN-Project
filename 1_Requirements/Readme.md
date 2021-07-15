@@ -6,17 +6,17 @@ This project helps to developing game sector in Chess by using C programming.
   
 # Objectives:
 
-Use enum s to give names to numbers. ...
+Use enum s to give names to numbers.
 
-Define a struct to combine chess piece type and color. ...
+Define a struct to combine chess piece type and color.
 
-Don't use nested functions. ...
+Don't use nested functions.
 
-Use switch -statements where appropriate. ...
+Use switch -statements where appropriate.
 
-Move more code into separate functions. ...
+Move more code into separate functions.
 
-Be consistent when naming functions and variables. ...
+Be consistent when naming functions and variables.
 
 Add whitespaces to make the structure of your code more clear.
 
