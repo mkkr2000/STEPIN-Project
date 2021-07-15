@@ -26,18 +26,3 @@ Where:
 How:
 •	This project takes in all the design input values and yields out the Line parameters.
   
-Detail requirements
-High Level Requirements:
-ID	         Description                                            Category	 Status
-HLR01 	User has a menu for selecting the type of line parameters       Technical	 IMPLEMENTED
-HLR02  	Requires the input from the user for Short line	parameters      Technical	 IMPLEMENTED
-HLR03	 Requires the input from the user for Medium line parameters    Technical	 IMPLEMENTED
-HLR04 	Requires the input from the user for Long line parameters   Technical	 IMPLEMENTED
-									
-					
-
-Low level Requirements
-ID	          Description                                                       HLR ID	Status
-LLR01	   Small menu should be created for A switch case the user to interact	    HLR01  	IMPLEMENTED
-LLR02  	A function to calculate the  shortLine parameters	                    HLR02  	IMPLEMENTED
-LLR03  	A function to calculate the complex MediumLine parameters	            HLR03	  IMPLEMENTED
