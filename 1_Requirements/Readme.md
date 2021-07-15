@@ -1,6 +1,6 @@
 # Introduction
 
-# Title: Chess game using C
+# Title: Chess Board using C
 
 This project helps to developing game sector in Chess by using C programming.
   
