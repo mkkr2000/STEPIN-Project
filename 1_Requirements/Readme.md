@@ -3,6 +3,20 @@
 # Title: Chess Board using C
 
 This project helps to developing game sector in Chess by using C programming.
+
+# Approach: 
+
+We will create a Chess Board with the help below functions:
+
+1.rectangle(left, top, right, bottom): A function from graphics.h header file which is used to draw a rectangle. Coordinates of the left top and right bottom corners are required to draw the rectangle. left specifies the X-coordinate of the top left corner, top specifies the Y-coordinate of the top left corner, right specifies the X-coordinate of the right bottom corner, bottom specifies the Y-coordinate of the right bottom corner.
+
+2.delay(): This function is present in library “dos.h” is used for holding the program output for a small period of time since processing is very fast so use it to see the result.
+
+3.setcolor(): A function from graphics.h header file which sets the color of the pointer (cursor). There are some predefined colors in computer graphics. Here n is the color number.
+
+4.setfillstyle(): A function from graphics.h header file which sets the current fill pattern and fill color.
+
+5.floodfill(): A function from graphics.h header file which is used to fill an enclosed area.
   
 # Objectives:
 
